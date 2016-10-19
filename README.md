@@ -1,5 +1,5 @@
 #iGEM_Wageningen_UR_2016
-As part of the iGEM (www.igem.org) competition, I created a dynamic model of the optogenetic tools pDusk and pDawn (described by Ohlendorf et al. 2012) and extended it's functionality towards an optogenetic kill switch by implementing the mazEF toxin-antitoxin system. All analysis was conducted with a Mac on OS El Capitan 10.11.6 in Matlab 2015b (student version). 
+As part of the iGEM (www.igem.org) competition, I created a dynamic model of the optogenetic tools pDusk and pDawn (described by Ohlendorf et al. 2012) and extended it's functionality towards an optogenetic kill switch by implementing the mazEF toxin-antitoxin system. All analysis was conducted with a Mac on OS El Capitan 10.11.6 in Matlab 2015b (student version). Further documentation can be found in the files themselves.
 
 ## List of Files
 * Data from Ohlendorf et al. (2012) describing their system with lab data can be found in these files: DataPoints_pDawn.csv, DataPoints_pDusk.csv, Standard_Deviation_Ohlendorf_pDusk.csv, Standard_Deviation_Ohlendorf_pDawn.csv
@@ -12,5 +12,3 @@ To reproduce the data shown for pDusk and pDawn on: [BeeT (iGEM 2016) - Optogene
 
 ## pDusk + constitutive mazF/ pDawn + constitutive mazE Simulation
 Further analysis to implement the mazEF toxin-antitoxin system was done by using the pDusk_pDawn_mazEF_parameter_estimation.m file for the parameter estimation and the pDusk_pDawn_mazEF_evaluation.m can be used to evaluate the 1000 parameter set results.
-
-Further documentation can be found in the files themselves.
